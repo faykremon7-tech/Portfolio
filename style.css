@@ -1361,3 +1361,38 @@ footer {
     0 0 20px rgba(236,72,153,.5);
 
 }
+
+
+
+@media(max-width:768px){
+
+    .hero{
+        min-height:100vh;
+        height:auto;
+        padding:100px 20px 50px;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+    }
+
+    .hero-graphic{
+        display:block;
+        width:280px;
+        height:280px;
+        margin:30px auto;
+    }
+
+    .container{
+        width:92%;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    #contact form{
+        padding:25px 15px;
+    }
+
+}
